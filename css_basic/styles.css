@@ -1,3 +1,17 @@
+.logo {
+  font-size: 2em;
+  margin-right: 1em;
+}
+
+
+header {
+background-color:blue;
+padding: 1em;
+}
+header li {
+color: white;
+}
+
 body{ display: flex;
     flex-direction: column;
 
@@ -5,13 +19,22 @@ body{ display: flex;
 main{display: flex;
     flex-direction: row ;
     flex: auto;
+    background-color:yellow;
 
 }
 article{
     flex: 2;
-    overflow-y: auto 
+    overflow-y: auto;
+    background-color:greenyellow; 
 }
 aside{
     flex: 1;
     overflow-y: auto ;
+    background-color:red;
+}
+footer {
+  background-color:blueviolet;
+  text-align: center;
+  color: white;
+  padding: 1em;
 }
