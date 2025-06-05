@@ -5,7 +5,7 @@
 
 
 header {
-background-color:blue;
+background-color:pink;
 padding: 1em;
 }
 header li {
@@ -15,6 +15,10 @@ color: white;
 body{ display: flex;
     flex-direction: column;
 
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 main{display: flex;
     flex-direction: row ;
