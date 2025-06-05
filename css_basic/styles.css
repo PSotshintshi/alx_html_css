@@ -34,7 +34,7 @@ article{
 aside{
     flex: 1;
     overflow-y: auto ;
-    background-color:red;
+    background-color:mediumaquamarine;
 }
 footer {
   background-color:blueviolet;
