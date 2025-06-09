@@ -1,0 +1,307 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ background-image:"./images/Object.png";
+  font-family: Arial, sans-serif;
+  color: black; /* ensures text is readable over the image */
+}
+/*
+.content {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* optional: darken content background for readability 
+  max-width: 800px;
+  margin: auto;
+}
+*/
+
+nav ul {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  list-style: none;
+  margin: 0;
+  padding: 0 300px 0 0;
+ 
+}
+
+li {
+  margin-left: 20px; /* spacing between items */
+}
+li a {
+  text-decoration: none; /* removes underline */
+  font-weight: bold;     /* makes text bold */
+  color: black;          /* optional: change link color */
+}
+section {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+
+/* First div with "Get schooled" */
+section > div:first-child {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+section h1 {
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+section span {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+section button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-bottom: 180px;
+}
+
+
+
+section > div:nth-child(2) {
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.purple {
+  color: purple;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Container for the pros */
+section > div:nth-child(2) > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+section > div:nth-child(2) > div > div {
+  padding: 40px;
+  width: 220px;
+  text-align: center;
+}
+
+section img {
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+section h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+section p {
+  font-size: 22px;
+  color: #555;
+}
+
+.hero-section {
+  background-image: "./images/object.png"; /* or 1.png if that's the file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: white; /* Ensures text is readable over the image */
+}
+section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+   
+}
+
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Image left, content right */
+  gap: 30px;
+  padding: 60px 20px;
+  max-width: 2000px;
+  margin: auto;
+  background-color: violet;
+}
+
+.testimonial-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes image round */
+  object-fit: cover;
+}
+.site-footer {
+  background-color: #001f3f;  /* Dark blue */
+  color: #ffffff;             /* White text */
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.footer-content {
+  margin: auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between; /* Logo left, icons right */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo {
+  width: 200px;
+  height: auto;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin: 1px 50px 0 10px;
+  cursor: pointer;
+  transition:  0.3s;
+  
+}
+
+.social-icons i:hover {
+  color: white; /* Hover color */
+}
+
+.footer-content p {
+  font-size: 12px;
+  color: #ccc;
+  margin: 20px 800px 0px;
+}
+.footer-content,
+.footer-top,
+.footer-logo {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+
+/*.faq-item {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.faq-item p {
+  font-size: 5px;
+  color: #444;
+  line-height: 1.5;
+}*/
+
+
+.faq-item {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000;
+ margin: 1px 50px 0 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+
+}
+
+
+
+.membership-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f0f8ff; /* Optional background */
+}
+
+.membership-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.membership-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  overflow-x: auto; /* Enables horizontal scroll on smaller screens */
+  margin-bottom: 40px;
+}
+
+.membership-card {
+  min-width: 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  flex: 0 0 auto; /* Prevent shrinking */
+}
+
+.membership-card img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.membership-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.membership-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.membership-button {
+  background-color: #ff5c5c;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.membership-button:hover {
+  background-color: #e14e4e;
+}
