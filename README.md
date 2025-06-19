@@ -25,5 +25,5 @@ A sleek, responsive landing page for a headphone product, crafted with **HTML5**
   - Clear visual hierarchy
   - Easy-to-navigate codebase
 
-## 📁 Project Structure
+
 
