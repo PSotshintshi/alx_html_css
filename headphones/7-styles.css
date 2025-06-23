@@ -1,0 +1,13 @@
+.pentagon:hover {
+  background: #e22c64;
+}
+
+.centered-form button:hover {
+  background-color: #e22c64;
+}
+.social-icon:hover {
+  opacity: 0.7;
+}
+.icon-block {
+    animation: pulse 2s;
+}

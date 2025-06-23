@@ -1,0 +1,65 @@
+
+header {
+  background-image: url("images/headphones_hero_1.jpg");
+ background-size: cover; /* or try 'contain' if you want full image visible */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* or 'fixed' for parallax effect */
+  background-color: rgba(0, 0, 0, 0.4); /* darkens background slightly */
+  background-blend-mode: overlay;
+  color: white;
+  padding: 20px;
+  background-size: auto 1200px;
+  height: 900px; /* ensures entire image and content are visible */
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+  
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  height: 40px;
+}
+
+.hero {
+  text-align: center;
+  padding: 410px 40px;
+  color: white;
+
+}
+.hero h1 {
+    font-size: 50px;
+}
+.hero p {
+text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.hero button {
+  background-color: #ff3c78;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px 0;
+}
